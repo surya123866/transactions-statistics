@@ -178,11 +178,5 @@ View the updated statistics and bar chart based on the selected month.
 Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-Fork the repository
-
-1 Create your feature branch (git checkout -b feature/YourFeature)
-2 Commit your changes (git commit -am 'Add some feature')
-3 Push to the branch (git push origin feature/YourFeature)
-4 Create a new Pull Request
 
 
