@@ -11,7 +11,7 @@ Setup Instructions
 
 1 Clone the Repository:
 
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/surya123866/transactions-statistics.git
 cd your-repository
 
 2 Install Dependencies:
