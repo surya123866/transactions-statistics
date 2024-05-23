@@ -80,4 +80,6 @@ Running the Server
 Start the server using the following command:
 npm start
 
+The server will start on the port specified in your configuration. You can then access the APIs using a tool like Postman or via a web browser.
+
 
