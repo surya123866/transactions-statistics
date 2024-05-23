@@ -1,4 +1,5 @@
-Backend Task
+Backend Task - Transactions Dashboard
+
 This repository contains the backend task for handling product transactions from a third-party API. The task involves fetching data, initializing a database, and creating various APIs for querying and analyzing transaction data.
 
 Data Source
@@ -81,5 +82,107 @@ Start the server using the following command:
 npm start
 
 The server will start on the port specified in your configuration. You can then access the APIs using a tool like Postman or via a web browser.
+
+
+Frontend Task - Transactions Dashboard
+This project is a frontend application designed to display transactions data using provided APIs. The dashboard features a transactions table, statistical summaries, and a bar chart, all of which update dynamically based on user input and selected month.
+
+Table of Contents
+Project Setup
+Features
+APIs Used
+Components
+Usage
+Contributing
+License
+Project Setup
+Prerequisites
+Node.js (v14 or higher)
+
+
+Installation
+
+1 Clone the repository:
+git clone https://github.com/yourusername/transactions-dashboard.git
+
+2 Navigate to the project directory:
+
+cd transactions-dashboard
+Install the dependencies:
+npm install
+
+3 Running the Project
+
+To start the development server, run:
+npm start
+
+The application should now be running on http://localhost:3000.
+
+Features
+
+Transactions Table
+
+Displays a list of transactions for the selected month.
+Month selection dropdown with options from January to December.
+Default selection is March.
+Search functionality to filter transactions by title, description, or price.
+Pagination support with "Next" and "Previous" buttons to navigate through transaction pages.
+Transactions Statistics
+Displays total amount of sales, total sold items, and total unsold items for the selected month.
+Data updates dynamically based on the selected month.
+
+Transactions Bar Chart
+Displays a bar chart showing the price range and number of items within each range for the selected month.
+Data updates dynamically based on the selected month.
+
+APIs Used
+
+Transactions Listing API
+Endpoint: /api/transactions
+Methods: GET
+Parameters:
+month: The selected month (1-12).
+search: (Optional) Text to search in title, description, or price.
+page: The page number for pagination.
+
+Transactions Statistics API
+Endpoint: /api/transactions/stats
+Methods: GET
+Parameters:
+month: The selected month (1-12).
+
+Transactions Bar Chart API
+Endpoint: /api/transactions/chart
+Methods: GET
+Parameters:
+month: The selected month (1-12).
+Components
+
+Month Selector
+A dropdown component to select the month. The selected month affects the data displayed in the table, statistics, and chart.
+
+Transactions Table
+A table component that lists transactions with pagination and search functionality.
+
+Statistics Box
+Displays total sales amount, total sold items, and total unsold items for the selected month.
+
+Bar Chart
+Displays a bar chart representing the price range and number of items within that range for the selected month.
+
+Usage
+Select a month from the dropdown to filter data by month.
+Use the search box to filter transactions by title, description, or price.
+Navigate through transaction pages using the "Next" and "Previous" buttons.
+View the updated statistics and bar chart based on the selected month.
+Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+Fork the repository
+
+1 Create your feature branch (git checkout -b feature/YourFeature)
+2 Commit your changes (git commit -am 'Add some feature')
+3 Push to the branch (git push origin feature/YourFeature)
+4 Create a new Pull Request
 
 
