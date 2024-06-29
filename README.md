@@ -112,20 +112,24 @@ This project is a frontend application designed to display transactions data usi
 ### Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/transactions-dashboard.git
+```bash
+git clone https://github.com/yourusername/transactions-dashboard.git
+```
 
 2. Navigate to the project directory:
-     ```bash
-     cd transactions-dashboard
-     
-3.Install dependencies:
-    ```bash
-    npm install
+```bash
+cd transactions-dashboard
+```
 
-3.Running the Project:
-    ```bash
-    npm start
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Run the project:
+```bash
+npm start
+```
 
 The application should now be running on http://localhost:3000.
 
