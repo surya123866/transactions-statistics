@@ -129,9 +129,9 @@ This project is a frontend application designed to display transactions data usi
 
 The application should now be running on http://localhost:3000.
 
-##Features
+# Features
 
-#Transactions Table
+## Transactions Table
 
 --Displays a list of transactions for the selected month.
 --Month selection dropdown with options from January to December.
@@ -142,13 +142,13 @@ The application should now be running on http://localhost:3000.
 --Displays total amount of sales, total sold items, and total unsold items for the selected month.
 --Data updates dynamically based on the selected month.
 
-#Transactions Bar Chart
+# Transactions Bar Chart
 Displays a bar chart showing the price range and number of items within each range for the selected month.
 Data updates dynamically based on the selected month.
 
-##APIs Used
+## APIs Used
 
-##Transactions Listing API
+### Transactions Listing API
 --**Endpoint**: /api/transactions
 --**Methods**: GET
 --**Parameters**:
@@ -156,32 +156,32 @@ Data updates dynamically based on the selected month.
 --**search**: (Optional) Text to search in title, description, or price.
 --**page**: The page number for pagination.
 
-##Transactions Statistics API
+### Transactions Statistics API
 --**Endpoint**: /api/transactions/stats
 --**Methods**: GET
 --**Parameters**:
 --**month**: The selected month (1-12).
 
-##Transactions Bar Chart API
+### Transactions Bar Chart API
 --**Endpoint**: /api/transactions/chart
 --**Methods**: GET
 --**Parameters**:
 --**month**: The selected month (1-12).
 
 
-##Month Selector
+### Month Selector
 --A dropdown component to select the month. The selected month affects the data displayed in the table, statistics, and chart.
 
-##Transactions Table
+### Transactions Table
 --A table component that lists transactions with pagination and search functionality.
 
-##Statistics Box
+### Statistics Box
 --Displays total sales amount, total sold items, and total unsold items for the selected month.
 
-###Bar Chart
+### Bar Chart
 --Displays a bar chart representing the price range and number of items within that range for the selected month.
 
-##Usage
+### Usage
 -- Select a month from the dropdown to filter data by month.
 -- Use the search box to filter transactions by title, description, or price.
 -- Navigate through transaction pages using the "Next" and "Previous" buttons.
