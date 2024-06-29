@@ -149,12 +149,12 @@ Data updates dynamically based on the selected month.
 ##APIs Used
 
 ###Transactions Listing API
-Endpoint: /api/transactions
-Methods: GET
-Parameters:
-month: The selected month (1-12).
-search: (Optional) Text to search in title, description, or price.
-page: The page number for pagination.
+**Endpoint**: /api/transactions
+**Methods**: GET
+**Parameters**:
+**month**: The selected month (1-12).
+**search**: (Optional) Text to search in title, description, or price.
+**page**: The page number for pagination.
 
 #Transactions Statistics API
 Endpoint: /api/transactions/stats
